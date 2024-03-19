@@ -1,23 +1,17 @@
+//program execution in order:
+
+//creating the builder
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
+//actually building
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//middleware services TBD
 
-app.UseHttpsRedirection();
-
+//auth, direct http req to correct api, finally RUN
 app.UseAuthorization();
 
 app.MapControllers();
