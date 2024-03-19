@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/dMzF6MNvKy2TQveLAG2eOd0+iiCtSKe/GGOf8Ndq8r7xrMWCmJhMWb6d1xxZQ6HCNPioX8c6Limy991wpmaFA==",
+  "dgSpecHash": "wH4w3fgeUhhrNfCkzfdxazN4baEfSAFhOiYDsWM/sows2j9yBAPoOd+36KiwthI2B19AQr2W9fKr3dibgkJLmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\AuctionService\\AuctionService.csproj",
+  "projectFilePath": "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\auctionservice\\AuctionService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
