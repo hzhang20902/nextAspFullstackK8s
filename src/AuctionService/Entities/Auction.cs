@@ -1,4 +1,5 @@
 ﻿//namespace doesn't require the .Entities in later versions but keeps folder org more visually intact
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Http.Features;
 
 namespace AuctionService.Entities;
@@ -7,7 +8,7 @@ public class Auction
 {
     public Guid Id { get; set;}
 
-    public int Reserve { get; set; } = 0;
+    public int ReservePrice { get; set; } = 0;
 
     public string Seller { get; set;}
     public string Winner { get; set;}

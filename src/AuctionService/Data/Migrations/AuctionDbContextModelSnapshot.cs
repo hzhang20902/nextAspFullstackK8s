@@ -37,7 +37,7 @@ namespace AuctionService.Data.Migrations
                     b.Property<int?>("CurrentHighBid")
                         .HasColumnType("integer");
 
-                    b.Property<int>("Reserve")
+                    b.Property<int>("ReservePrice")
                         .HasColumnType("integer");
 
                     b.Property<string>("Seller")
