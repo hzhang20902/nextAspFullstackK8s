@@ -13,4 +13,9 @@ public class Item
     public int Mileage {get;set;}
 
     public string ImageUrl {get;set;}
+
+    //nav properties for schema config for Entity Framework
+    public Auction Auction {get;set;}
+    public Guid AuctionId {get;set;}
 }
+
