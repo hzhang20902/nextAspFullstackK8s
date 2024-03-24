@@ -22,7 +22,7 @@ public class DbInitializer
         context.Database.Migrate();
         if(context.Auctions.Any())
         {
-            Console.WriteLine("Already have data - no need to seed");
+            Console.WriteLine("You've got the data already; now do something with it!!!");
             return;
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\auctionservice\\AuctionService.csproj": {}
+    "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\auctionservice\\AuctionService.csproj": {
+    "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\auctionservice\\AuctionService.csproj",
+        "projectUniqueName": "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\auctionservice\\AuctionService.csproj",
+        "projectPath": "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\AuctionService\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\hzhang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\auctionservice\\obj\\",
+        "outputPath": "C:\\Users\\hzhang\\Documents\\carAuctionNextjsAspnet\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hzhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
