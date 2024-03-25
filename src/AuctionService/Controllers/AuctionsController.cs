@@ -35,14 +35,14 @@ namespace AuctionService.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<List<AuctionDTO>>> GetAuctionById(Guid id)
+        public async Task<ActionResult<AuctionDTO>> GetAuctionById(Guid id)
         {
             var auction = await _context.Auctions
                 .Include(x => x.Item)
                 .FirstOrDefaultAsync(x => x.Id == id);
             if (auction == null) return NotFound();
             
-            return _mapper.Map<List<AuctionDTO>>(auction);
+            return _mapper.Map<AuctionDTO>(auction);
         }
 
     }
